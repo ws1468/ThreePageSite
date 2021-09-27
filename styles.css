@@ -9,23 +9,25 @@ body, html {
   font-family: sans-serif;
 }
 
-.navBar {
+/* .navBar {
   position: sticky;
   top: -1px;
-}
+} */
 
 .navBarUl {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgba(0, 0, 0, .5);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
-
 .navBarli{
   float: left;
 }
-
 .navBarli a {
   display: block;
   color: white;
@@ -35,7 +37,7 @@ body, html {
 }
 
 .navBarli a:hover {
-  background-color: #111;
+  background-color: #a2e5fa;
 }
 
 .mainContainer {
@@ -47,6 +49,10 @@ body, html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: rgba(255, 255, 255, .3);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
 }
 
 #p1 {
@@ -66,24 +72,31 @@ body, html {
   background-position: center;
   background-attachment: fixed;
 
-  padding: 100px;
+  /* padding: 100px; */
 }
 
 .maincontent {
   padding: 5%;
-  background-color: rgba(255, 255, 255, .5);
+  margin: 10%;
+  background-color: rgba(255, 255, 255, .75);
   backdrop-filter: blur(10px);
-  border-radius: 15px;
+  border-radius: 20px;
+  text-align: justify;
 }
 
 .footer {
   /* padding: 5%; */
-  background-color: rgba(255, 255, 255, .5);
+  background-color: rgba(255, 255, 255, .75);
   backdrop-filter: blur(10px);
   border-radius: 15px;
 }
 
+h1 {
+  text-align: center;
+}
+
 h2 {
+  text-align: center;
   border-bottom: 2px solid black;
   padding-bottom: 15px;
 }
@@ -95,4 +108,27 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+}
+
+#active {
+  background-color: #a2e5fa;
+}
+
+.columnsContainer{
+  /* background-color: #ff0072; */
+  width: 100%;
+}
+
+.leftContentColumn {
+  margin: 0px;
+  padding: 10px;
+  width: 49%;
+  display: inline-block;
+}
+
+.rightContentColumn {
+  margin: 0px;
+  padding: 10px;
+  width: 49%;
+  display: inline-block;
 }
