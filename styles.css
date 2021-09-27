@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.navBar {
+  position: sticky;
+  top: -1px;
+}
+
+.navBarUl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navBarli{
+  float: left;
+}
+
+.navBarli a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navBarli a:hover {
+  background-color: #111;
+}
+
+.mainContainer {
+  text-align: center;
+}
+
+.youtubevideo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#p1 {
+  background-image: url("AdobeStock_251517192.jpeg");
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#p2 {
+  background-image: url("AdobeStock_369196720.jpeg");
+  /* height: 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  padding: 100px;
+}
+
+.maincontent {
+  padding: 5%;
+  background-color: rgba(255, 255, 255, .5);
+  backdrop-filter: blur(10px)
+}
+
+h2 {
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+}
+
+#p3 {
+  background-image: url("AdobeStock_369253259.jpeg");
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
