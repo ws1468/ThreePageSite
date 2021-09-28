@@ -26,9 +26,11 @@ body, html {
   top: 0;
   width: 100%; */
 }
+
 .navBarli{
-  float: left;
+  display: inline-block;
 }
+
 .navBarli a {
   display: block;
   color: white;
