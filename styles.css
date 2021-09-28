@@ -21,9 +21,10 @@ body, html {
   overflow: hidden;
   background-color: rgba(0, 0, 0, .5);
   backdrop-filter: blur(10px);
-  position: sticky;
+
+  /* position: sticky;
   top: 0;
-  width: 100%;
+  width: 100%; */
 }
 .navBarli{
   float: left;
@@ -51,6 +52,15 @@ body, html {
   transform: translate(-50%, -50%);
   padding: 20px;
   background-color: rgba(255, 255, 255, .3);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+}
+
+.video {
+  text-align: center;
+  padding: 5%;
+  margin: 10%;
+  background-color: rgba(255, 255, 255, .75);
   backdrop-filter: blur(10px);
   border-radius: 20px;
 }
@@ -86,9 +96,10 @@ body, html {
 
 .footer {
   /* padding: 5%; */
-  background-color: rgba(255, 255, 255, .75);
+  /* background-color: rgba(255, 255, 255, .75);
   backdrop-filter: blur(10px);
-  border-radius: 15px;
+  border-radius: 15px; */
+  text-align: center;
 }
 
 h1 {
@@ -126,7 +137,13 @@ h2 {
   display: inline-block;
 }
 
+#disasters {
+  width: 100%;
+  height: 100%;
+}
+
 .rightContentColumn {
+  /* background-color: #eee; */
   margin: 0px;
   padding: 10px;
   width: 49%;
